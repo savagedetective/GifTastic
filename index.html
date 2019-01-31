@@ -1,14 +1,52 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GifTastic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\css\styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\css\styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets\javascript\app.js"></script>
 </head>
+
 <body>
     
+    <div class="container-fluid main-content">
+
+        <div class="jumbotron jumbotron-fluid title-header">
+            <div class="container">
+                <h1 class="display-4">Giphy Things</h1>
+                <p class="lead">Lets look at some fruit and vegetables. For fun.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12" id="button-section">
+
+            </div>
+        </div> 
+
+        <div class="row" id="image-search-div">
+            <div class="col-sm-8" id="gif-area">
+
+            </div>
+
+            <div class="col-sm-4" id="search-area">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control search-input" placeholder="fruit or vegetable" aria-label="fruit or vegetable" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                                <button class="btn btn-outline-secondary search-button" type="button">Add Button</button>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
 </body>
+
 </html>

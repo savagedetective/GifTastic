@@ -1,0 +1,35 @@
+body {
+    background-color: #E7FFF4;
+}
+
+.title-header {
+    padding: 15px 0;
+    background: linear-gradient(110deg, #82C4FF 40%, #4B9FFF 40%);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#button-section button {
+    padding:10px 15px;
+    margin: 5px;
+}
+
+#image-search-div {
+    margin-top: 40px;
+}
+
+.individual-image {
+    float:left;
+    margin: 6px;
+}
+
+.individual-image img {
+    max-width: 400px;
+    max-height:170px;
+}
+
+.individual-image p {
+    background-color: #82C4FF;
+    padding-left:4px;
+    padding-bottom:4px;
+    margin-bottom:0;
+}
